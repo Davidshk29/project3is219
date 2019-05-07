@@ -120,6 +120,27 @@ body {
 
 /* ADD YOUR LIKE AND DISLIKE HOVER/MOUSEOVER CSS CODE HERE */
 
+.likes{
+    background-color: green;
+    color: yellow;
+    transition: width 500ms, height 500ms;
+}
+
+.dislikes{
+    background-color: red;
+    color: yellow;
+    transition: width 500ms, height 500ms;
+}
+
+.likes:hover {
+    background-color: greenyellow;
+    color: green;
+}
+
+.dislikes:hover {
+    background-color: indianred;
+    color: red;
+}
 
 
 
